@@ -1,0 +1,28 @@
+body {
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+  color: red;
+  text-shadow: 2px 2px 5px black; /* horizental vertical blur and color  */
+}
+p {
+  text-align: justify;
+}
+.para {
+  background-color: lightgreen;
+  text-align-last: center;
+  /* direction: rtl; */
+  /* unicode-bidi: bidi-override; */
+}
+.para2 {
+  /* vertical-align: baseline; */
+  /* vertical-align: text-top; */
+  /* vertical-align: text-bottom; */
+  text-indent: 105px;
+  /* letter-spacing: 5px; */
+  line-height: 50px;
+  word-spacing: 35px;
+  /* white-space: nowrap; */
+  /* white-space: normal; */
+}
