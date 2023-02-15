@@ -1,0 +1,21 @@
+/*universal selector*/
+*body {
+  background-color: cyan;
+}
+p {
+  background-color: red; /* element  selector*/
+}
+.heading {
+  background-color: orange; /* class selector*/
+}
+#span {
+  background-color: cadetblue;
+}
+
+p,  /* grouping selecter*/
+h3,
+span,
+em,
+h4 {
+  border: 2px solid green;
+}
