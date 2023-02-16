@@ -1,0 +1,15 @@
+h4 {
+  color: green;
+  background-color: yellow;
+  border: 2px solid red;
+}
+
+p {
+  background-color: lightgreen;
+  color: blue;
+}
+
+span {
+  color: rgb(0, 0, 0);
+  background-color: rgba(177, 77, 88, 0.4);
+}
