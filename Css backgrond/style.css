@@ -1,0 +1,20 @@
+body {
+  background-color: skyblue;
+  opacity: 0.8;
+}
+P {
+  background-color: teal;
+  opacity: 1;
+}
+.para2 {
+  background-image: url(img/img.jpg);
+  background-repeat: repeat-x;
+  /* background-repeat: repeat-y; */
+  /* background-repeat: no-repeat; */
+  /* background-position: right top; */
+  /* background-position: center center; */
+  /* background-position: center left; */
+  /* background-position: left center; */
+  /* background-attachment: fixed; */
+  background-attachment: scroll;
+}
