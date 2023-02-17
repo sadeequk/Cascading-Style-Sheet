@@ -1,0 +1,43 @@
+h1 {
+  background-color: lightgreen;
+  text-align: center;
+}
+.div {
+  border: 1px solid black;
+  background-color: lightblue;
+}
+.para1 {
+  background-color: rgb(229, 243, 248);
+  padding-left: 34px;
+}
+.para2 {
+  background-color: yellow;
+  margin-top: 44px;
+  /* margin-top: 34px; */
+}
+
+h3 {
+  border: 2px solid red;
+  width: 90%;
+  margin: auto;
+  /* text-align: center; */
+}
+.div-2 {
+  margin: 10px;
+  background-color: chartreuse;
+  border: 2px solid black;
+}
+.paraa {
+  /* it can also work when you use only p (instead of its class)*/
+  /* background-color: inherit; */
+  border: inherit;
+  margin: inherit;
+}
+.div-3 {
+  background-color: lightsteelblue;
+  border: double black;
+  /* border-width: 33px; */
+}
+.padding {
+  padding: 44px;
+}
