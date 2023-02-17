@@ -1,0 +1,29 @@
+h1 {
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: red;
+}
+h2 {
+  border-bottom: 3px solid green;
+}
+h3 {
+  border-right: 5px red;
+}
+h4 {
+  padding-left: 5px;
+  border-left: 3px dotted green;
+}
+h5 {
+  border-top: double black;
+  /* border-style: double; */
+}
+p {
+  background-color: greenyellow;
+  border-top: 2px solid red;
+  border-right: double green;
+  border-bottom: 2px dotted blue;
+  border-left: 5px inset black;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
