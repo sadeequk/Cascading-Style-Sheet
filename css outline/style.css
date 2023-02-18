@@ -1,0 +1,8 @@
+p {
+  background-color: lightgreen;
+  border: 3px solid green;
+  outline-color: red;
+  /* outline-style: dotted; */
+  outline-style: double;
+  /* outline-width: 66px; */
+}
