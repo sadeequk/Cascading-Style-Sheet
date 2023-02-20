@@ -1,0 +1,44 @@
+.list-1 {
+  list-style-type: square;
+}
+.list-2 {
+  list-style-type: circle;
+}
+.list-3 {
+  list-style-type: lower-roman;
+}
+.list-4 {
+  list-style-type: upper-alpha;
+}
+.list-5 {
+  list-style-type: lower-alpha;
+}
+.list-6 {
+  list-style-type: lower-latin;
+}
+
+.list-7 {
+  list-style-type: upper-latin;
+}
+.list-8 {
+  list-style-type: lower-latin;
+}
+.list-9 {
+  list-style-type: upper-latin;
+}
+.list-10 {
+  /* background-color: cadetblue; */
+  border: 2px solid black;
+  /* list-style-position: outside; */
+  list-style-position: outside;
+  /* list-style-type: none; */
+}
+ul {
+  border-color: black;
+  margin: 20px;
+  background-color: cornflowerblue;
+}
+ul li {
+  margin: 9px;
+  background-color: chartreuse;
+}
