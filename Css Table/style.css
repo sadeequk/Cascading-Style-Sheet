@@ -1,0 +1,39 @@
+table,
+th,
+td {
+  /* border: 1px solid black; */
+  border-bottom: 1px solid black;
+}
+table {
+  margin: auto;
+  width: 60%;
+  border-collapse: collapse;
+}
+th {
+  /* vertical-align: bottom; */
+  height: 30px;
+  background-color: lightblue;
+}
+td {
+  text-align: center;
+  background-color: lightyellow;
+}
+/* th:hover {
+  background-color: red;
+  color: white;
+  transition: 300ms all ease-in-out;
+}
+td:hover {
+  background-color: lightgray;
+  color: black;
+  transition: 300ms all ease-in-out;
+} */
+/* tr:hover {
+  background-color: orange;
+  color: black;
+  transition: 300ms all ease-in-out;
+} */
+tr:hover {
+  background-color: green;
+  color: red;
+}
