@@ -1,0 +1,14 @@
+a {
+  padding: 3px;
+  background-color: lightblue;
+  border: double black;
+  border-radius: 3px;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  background-color: rgb(243, 132, 29);
+  color: black;
+  /* border-style: dashed; */
+  transition: 1s all ease-in-out;
+}
