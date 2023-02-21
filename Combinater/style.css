@@ -1,0 +1,25 @@
+/*Decendent selecter*/
+/* div p {
+  background-color: lightblue;
+} */
+
+/*Child selecter*/
+/* div > p {
+  background-color: lightblue;
+} */
+
+div {
+  border: 1px solid green;
+}
+
+/*Adjacent  Sibling*/
+
+/* span + p {
+  background-color: hotpink;
+} */
+
+/* General Sibling */
+
+span ~ p {
+  background-color: yellow;
+}
