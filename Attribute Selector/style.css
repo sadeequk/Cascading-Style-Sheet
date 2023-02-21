@@ -1,0 +1,23 @@
+/* a[target="_blank"] {
+  background-color: gray;
+} */
+/* a[title~="youtube"] {
+  background-color: yellowgreen;
+} */
+a[title|="youtube"] {
+  background-color: tomato;
+}
+/* a[title^="you"] {
+  background-color: pink;
+} */
+/* a[title$="d"] {
+  background-color: lightblue;
+} */
+/* a[title*="t"] {
+  background-color: black;
+  color: white;
+  padding: 16px;
+} */
+h1 {
+  text-align: center;
+}
