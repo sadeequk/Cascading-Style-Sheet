@@ -1,0 +1,11 @@
+/* body {
+  background-color: lightslategrey;
+} */
+
+img {
+  opacity: 0.5;
+}
+img:hover {
+  opacity: 1;
+  border-radius: 20px;
+}
