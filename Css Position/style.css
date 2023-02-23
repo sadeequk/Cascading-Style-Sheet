@@ -1,0 +1,28 @@
+.position-static {
+  background-color: lightblue;
+  position: static;
+  /* left: 40px; */
+}
+.position-relative {
+  background-color: chartreuse;
+  position: relative;
+  left: 40px;
+  /* width: 500px; */
+  /* margin: auto; */
+}
+.position-fixed {
+  background-color: rgb(34, 218, 231);
+  position: fixed;
+  /* left: 50%; */
+  /* margin: auto; */
+  /* text-align: center; */
+  /* left: 50%; */
+  /* width: 300px; */
+  /* margin: auto; */
+}
+.position-sticky {
+  position: sticky;
+  background-color: lightpink;
+  top: 5px;
+  padding: 10px;
+}
