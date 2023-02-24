@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(133, 178, 238);
+}
+h2 {
+  display: inline-block;
+  /* margin: auto; */
+  /* text-align: center; */
+  /* width: 320px; */
+  margin-left: auto;
+}
+/* h1 {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  width: 333px;
+} */
