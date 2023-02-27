@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+hr {
+  width: 70%;
+}
+.flex-container {
+  display: flex;
+  border: 2px solid red;
+  /* justify-content: center; */
+  /* width: 400px; */
+  background-color: blueviolet;
+  height: 400px;
+  flex-direction: row;
+  align-items: stretch;
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: column wrap-reverse; */
+  /* Main axis*/
+  /* justify-content: center; */
+  /* justify-content: flex-start; */
+  /* justify-content:end; */
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: space-evenly; */
+  /* Cross axis*/
+  /* align-items: center; */
+}
+.flex-item {
+  border: 1px solid black;
+  margin: 5px;
+  background-color: aqua;
+  width: 100px;
+  /* height: 100px; */
+}
