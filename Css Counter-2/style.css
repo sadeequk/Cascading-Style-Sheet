@@ -1,0 +1,15 @@
+/* body {
+  counter-reset: my-counter 0;
+}
+h2::before {
+  content: "No-" counter(my-counter) " : ";
+  counter-increment: my-counter 1;
+} */
+
+body {
+  counter-reset: my-counter 2; /* it will start from 3*/
+}
+h2::before {
+  content: "No-" counter(my-counter) " : ";
+  counter-increment: my-counter 1; /* increment by 1*/
+}
