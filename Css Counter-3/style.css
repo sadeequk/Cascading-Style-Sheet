@@ -1,0 +1,28 @@
+h2 {
+  color: green;
+}
+h3 {
+  color: blue;
+}
+body {
+  counter-reset: my-counter 0;
+}
+
+h2::before {
+  content: "Main Heading-no " counter(my-counter) " :  ";
+  /* content: "Main Heading-no " counter(my-counter, upper-alpha) " :  "; */
+  /* lower-roman*/
+
+  counter-increment: my-counter 1;
+  color: black;
+}
+h2 {
+  counter-reset: sub-counter 0;
+}
+h3::before {
+  /* content: "Sub Heading-no " counter(my-counter) "." counter(sub-counter) " : "; */
+  content: " " counter(my-counter) "." counter(sub-counter) " : ";
+
+  counter-increment: sub-counter 1;
+  color: red;
+}
