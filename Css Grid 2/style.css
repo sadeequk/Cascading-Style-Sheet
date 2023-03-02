@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  background-color: lightskyblue;
+  border: 1px solid black;
+  grid-template-columns: auto auto auto;
+  /* gap: 5px; */
+  /* column-gap: 5px; */
+  /* row-gap: 21px; */
+  gap: 3px 7px;
+}
+.item {
+  margin: 3px;
+  background-color: lightgreen;
+  color: black;
+  border: 1px solid white;
+  padding: 16px;
+  text-align: center;
+  border-collapse: collapse;
+}
+.item:hover {
+  background-color: green;
+  color: white;
+  text-align: center;
+  transition: ease-in-out 300ms;
+}
+#item1 {
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+/* #item5 {
+  grid-row-start: 4;
+  grid-row-end: 6;
+} */
+#item8 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+#item4 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
