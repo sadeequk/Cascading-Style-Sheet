@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  background-color: aqua;
+  grid-template-columns: auto auto auto;
+}
+.item {
+  margin: 3px;
+  text-align: center;
+  color: black;
+  padding: 12px;
+  background-color: cadetblue;
+}
+.item:hover {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  transition: ease-in-out 400ms;
+}
