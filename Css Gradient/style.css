@@ -1,0 +1,34 @@
+/* h2 {
+  color: black;
+  text-align: center; */
+/* margin-top: 200px; */
+/* } */
+body div {
+  /* background-image: linear-gradient(yellow, red); */
+  /* background-image: linear-gradient(to left, yellow, red); */
+  /* background-image: linear-gradient(to right, yellow, rgb(238, 167, 167), red); */
+  /* background-image: linear-gradient(to bottom right, yellow, red); */
+  /* background-image: linear-gradient(270deg, pink, red) */
+  /* background-image: linear-gradient(90deg, red, pink); */
+  /* background-image: linear-gradient(90deg, red, pink); */
+  /* background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    green,
+    yellow,
+    orange,
+    red
+    ); */
+  background-image: conic-gradient(yellow, red, green, white);
+  background-repeat: no-repeat;
+  border-radius: 60%;
+  /* background-size: 100% 100%; */
+  height: 100vh;
+  width: 100%;
+  /* overflow: hidden; */
+}
+/* background-image {
+  width: 100%;
+  height: 100vh;
+} */
