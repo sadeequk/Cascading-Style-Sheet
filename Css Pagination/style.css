@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+.pagination {
+  display: inline-block;
+  width: 200px;
+  margin: auto;
+}
+.pagination a {
+  color: black;
+  padding: 5px 8px;
+  text-decoration: none;
+}
+.pagination a.active {
+  color: green;
+  border: 3ps solid red;
+}
