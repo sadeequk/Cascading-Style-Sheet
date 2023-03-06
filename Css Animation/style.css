@@ -1,0 +1,82 @@
+div {
+  background-color: black;
+  height: 25px;
+  width: 25px;
+  animation-name: background-change;
+  animation-duration: 4s;
+}
+@keyframes background-change {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: red;
+  }
+}
+.div-2 {
+  background-color: black;
+  height: 25px;
+  width: 25px;
+  position: relative;
+  border-radius: 50%;
+  animation-name: bg-change;
+  animation-duration: 20s;
+}
+@keyframes bg-change {
+  0% {
+    background-color: black;
+    left: 0;
+    top: 0;
+  }
+  10% {
+    background-color: red;
+    left: 20px;
+    top: 0;
+  }
+  20% {
+    background-color: yellow;
+    left: 40px;
+    top: 0;
+  }
+  30% {
+    background-color: greenyellow;
+    left: 50px;
+    top: 0;
+  }
+  40% {
+    background-color: green;
+    left: 60px;
+    top: 0;
+  }
+
+  50% {
+    background-color: blue;
+    left: 50px;
+    top: 0;
+  }
+  60% {
+    background-color: violet;
+    left: 40px;
+    top: 0;
+  }
+  70% {
+    background-color: tomato;
+    left: 30px;
+    top: 0;
+  }
+  80% {
+    background-color: rgb(168, 202, 235);
+    left: 20px;
+    top: 0;
+  }
+  90% {
+    background-color: rgb(192, 221, 29);
+    left: 10px;
+    top: 0;
+  }
+  100% {
+    background-color: rgb(240, 23, 142);
+    left: 0;
+    top: 0;
+  }
+}
