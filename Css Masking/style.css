@@ -1,0 +1,8 @@
+.masking {
+  /* -webkit-mask-image: url(); */
+  -webkit-mask-image: url(photo/1.png);
+  mask-image: url(photo/img\ 1.jpg);s
+  mask-repeat: no-repeat;
+  -webkit-mask-image: url(photo/w3logo.png);
+  -webkit-mask-repeat: no-repeat;
+}
