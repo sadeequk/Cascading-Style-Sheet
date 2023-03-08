@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.muti-column {
+  column-count: 4;
+  column-gap: 20px;
+  column-rule-style: double;
+  column-rule-width: 4px;
+  column-rule-color: green;
+}
+h3 {
+  column-span: all;
+  /* column-span: 1; */
+}
