@@ -1,0 +1,9 @@
+.container {
+  width: 500px;
+  border: 2px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+  /* text-overflow: clip; */
+  /* text-overflow: ellipsis; */
+  text-overflow: "_____";
+}
