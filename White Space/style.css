@@ -1,0 +1,10 @@
+.container {
+  width: 400px;
+  border: 1px solid black;
+  /* white-space: normal; */
+  /* white-space: nowrap; */
+  /* white-space: pre; */           /* "NO wrap" funtionality work in this*/
+  /*pre-line take only single space( if someone give more space)  and "NO wrap functionality doees not work"*/
+  /* white-space: pre-line; */
+  white-space: pre-wrap;     /*just like pre but "no wrap" functionality doesnot work in this */
+}
